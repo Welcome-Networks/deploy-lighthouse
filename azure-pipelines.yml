@@ -1,2 +1,4 @@
+- name: Deploy Azure Resource Manager (ARM) Template
+  uses: Azure/arm-deploy@v1
 parameters:
   - file: subscriptions.parameters.json
